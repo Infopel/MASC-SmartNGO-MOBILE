@@ -1,0 +1,58 @@
+{
+  "config": {
+    "output": "moderate"
+  },
+  "$schema": "http://json.schemastore.org/solidaritySchema",
+  "requirements": {
+    "Android": [
+      {
+        "rule": "cli",
+        "binary": "emulator"
+      },
+      {
+        "rule": "cli",
+        "binary": "adb",
+        "error": "You need to install the Android SDK in your path to run this test."
+      },
+      {
+        "rule": "env",
+        "variable": ["ANDROID_SDK_ROOT"],
+        "error": "The  ANDROID_SDK_ROOT environment variable must be set to your local SDK.  Refer to getting started docs for help."
+      }
+    ],
+    "NPM": [
+      {
+        "rule": "cli",
+        "binary": "npm"
+      }
+    ],
+    "Yarn": [
+      {
+        "rule": "cli",
+        "binary": "yarn",
+        "semver": "^1.0.1",
+        "version": "--version"
+      }
+    ],
+
+    "Watchman": [
+      {
+        "rule": "cli",
+        "binary": "watchman"
+      }
+    ],
+    "Git email": [
+      {
+        "rule": "shell",
+        "command": "git config user.email",
+        "match": ".+@.+"
+      }
+    ],
+    "Package.json": [
+      {
+        "rule": "file",
+        "location": "./package.json"
+      }
+    ]
+  }
+}

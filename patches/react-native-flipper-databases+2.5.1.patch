@@ -1,0 +1,94 @@
+diff --git a/node_modules/react-native-flipper-databases/src/databasesFlipperPlugin.ts b/node_modules/react-native-flipper-databases/src/databasesFlipperPlugin.ts
+index d323cae..c033c41 100644
+--- a/node_modules/react-native-flipper-databases/src/databasesFlipperPlugin.ts
++++ b/node_modules/react-native-flipper-databases/src/databasesFlipperPlugin.ts
+@@ -12,6 +12,7 @@ import {
+   flipperObjectToGetTableDataRequest,
+   flipperObjectToGetTableInfoRequest,
+   flipperObjectToGetTableStructureRequest,
++  toErrorFlipperObject,
+ } from './mappers';
+ import type { DatabaseDriver } from './types';
+ 
+diff --git a/node_modules/react-native-flipper-databases/src/drivers/watermelondb.ts b/node_modules/react-native-flipper-databases/src/drivers/watermelondb.ts
+index 3640285..6560da6 100644
+--- a/node_modules/react-native-flipper-databases/src/drivers/watermelondb.ts
++++ b/node_modules/react-native-flipper-databases/src/drivers/watermelondb.ts
+@@ -1,5 +1,7 @@
+ import { Q } from '@nozbe/watermelondb';
+ import type { Database } from '@nozbe/watermelondb';
++import { AST, Parser }  from 'node-sql-parser';
++
+ 
+ import type {
+   DatabaseDescriptor,
+@@ -9,6 +11,7 @@ import type {
+   DatabaseGetTableInfoResponse,
+   DatabaseGetTableStructureResponse,
+ } from '../types';
++import { keys, values } from 'lodash';
+ 
+ export class WatermelonDBDriver implements DatabaseDriver {
+   private readonly databaseName: string = 'WatermelonDB';
+@@ -58,6 +61,7 @@ export class WatermelonDBDriver implements DatabaseDriver {
+     start: number,
+     count: number
+   ): Promise<DatabaseGetTableDataResponse> {
++    console.log('flipper getTableData ',{table, order, reverse, start, count})
+     const { columns } = this.database.schema.tables[table];
+     const allColumns = [
+       'id', // All tables automatically have a string column id to uniquely identify records.
+@@ -98,6 +102,52 @@ export class WatermelonDBDriver implements DatabaseDriver {
+     _databaseDescriptor: DatabaseDescriptor,
+     _query: string
+   ): Promise<DatabaseExecuteSQLResponse> {
+-    return Promise.reject('Unsupported method');
++    const opt = {
++      database: 'Sqlite' // MySQL is the default database
++    }
++
++    const res = [] as any[]
++    const allColumns: string[] = []
++    
++    const parser = new Parser();
++    const parsedQuery= parser.astify(_query, opt)
++    if(Array.isArray(parsedQuery)){
++      throw new Error("Only one query is allowed")
++    }
++    if(parsedQuery.type !== 'select'){
++      throw new Error("Only Select queries are allowed")
++    }
++    if(parsedQuery.from === null){
++      throw new Error("You must specify at least one table to query")
++    }
++ try{
++  console.log("Execute SQL",{_databaseDescriptor,_query, parsedQuery: (parsedQuery)})
++  const table = parsedQuery.from[0].table
++  let query = [Q.unsafeSqlQuery(_query)]
++  if(parsedQuery.from.length > 1){
++const tables= parsedQuery.from.filter(x=> table !== x.table).map(({table, as})=> table)
++    query = [Q.unsafeSqlQuery(_query), Q.experimentalJoinTables(tables)]
++    console.log("Execute SQL tables ", tables)
++  }
++
++  res.push(... await this.database.collections.get(parsedQuery.from[0].table).query(...query).unsafeFetchRaw() as unknown[])
++  console.log("Execute SQL response", res.length)
++  
++  allColumns.push(...keys(res[0]))
++  
++  
++}catch(e){
++  console.error("Execute SQL tables response error",e)
++  if(e instanceof Error){
++    throw e.message
+   }
++  throw e
++} 
++  return {
++    columns: allColumns,
++    values: res.map((x)=> values(x)),
++    affectedCount: res.length,insertedId: null, type:parsedQuery.type
++  };
++ }
++  
+ }

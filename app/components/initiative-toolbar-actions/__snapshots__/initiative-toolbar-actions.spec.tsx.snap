@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InitiativeToolbarActions> render 1`] = `
+<View
+  dataSet={Object {}}
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessible={true}
+    aria-haspopup="menu"
+    collapsable={false}
+    colorScheme="text"
+    dataSet={Object {}}
+    focusable={true}
+    nativeID="1"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDownCapture={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "borderRadius": 4,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingBottom": 4,
+        "paddingLeft": 4,
+        "paddingRight": 4,
+        "paddingTop": 4,
+      }
+    }
+    testID="back"
+  >
+    <Text />
+  </View>
+</View>
+`;

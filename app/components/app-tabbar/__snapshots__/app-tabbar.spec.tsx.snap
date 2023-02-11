@@ -1,0 +1,399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AppTabbar> render 1`] = `
+<View
+  dataSet={Object {}}
+  style={
+    Object {
+      "marginBottom": 16,
+      "marginLeft": 16,
+      "marginRight": 16,
+      "marginTop": 16,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Array [
+        Object {},
+        Object {
+          "dataSet": Object {},
+        },
+      ]
+    }
+    data={
+      Array [
+        "civic-incubator-details-events-tab",
+        "civic-incubator-details-participants-tab",
+      ]
+    }
+    dataSet={Object {}}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={Object {}}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          _icon={
+            Object {
+              "color": "text.50",
+              "size": "sm",
+            }
+          }
+          _spinner={
+            Object {
+              "color": "text.50",
+              "focusable": false,
+              "size": "sm",
+            }
+          }
+          _stack={
+            Object {
+              "alignItems": "center",
+              "space": "1.5",
+            }
+          }
+          _text={
+            Object {
+              "color": "text.50",
+              "fontSize": "sm",
+            }
+          }
+          accessibilityRole="button"
+          accessibilityState={
+            Object {
+              "selected": true,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          colorScheme="primary"
+          dataSet={Object {}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#d37b16",
+              "borderRadius": 4,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 10,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <View
+            dataSet={Object {}}
+            style={Object {}}
+          >
+            <Text
+              dataSet={Object {}}
+              style={
+                Object {
+                  "backgroundColor": undefined,
+                  "color": "#171717",
+                  "fontFamily": undefined,
+                  "fontSize": 24,
+                  "fontStyle": "normal",
+                  "fontWeight": "700",
+                  "letterSpacing": 0,
+                  "lineHeight": 30,
+                  "textDecorationLine": undefined,
+                }
+              }
+            >
+              Lectures
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          _icon={
+            Object {
+              "color": "primary.900",
+              "size": "sm",
+            }
+          }
+          _spinner={
+            Object {
+              "color": "primary.900",
+              "focusable": false,
+              "size": "sm",
+            }
+          }
+          _stack={
+            Object {
+              "alignItems": "center",
+              "space": "1.5",
+            }
+          }
+          _text={
+            Object {
+              "color": "primary.900",
+              "fontSize": "sm",
+            }
+          }
+          accessibilityRole="button"
+          accessibilityState={
+            Object {
+              "selected": false,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          colorScheme="primary"
+          dataSet={Object {}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffcc91",
+              "borderRadius": 4,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 10,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <View
+            dataSet={Object {}}
+            style={Object {}}
+          >
+            <Text
+              dataSet={Object {}}
+              style={
+                Object {
+                  "backgroundColor": undefined,
+                  "color": "#171717",
+                  "fontFamily": undefined,
+                  "fontSize": 24,
+                  "fontStyle": "normal",
+                  "fontWeight": "700",
+                  "letterSpacing": 0,
+                  "lineHeight": 30,
+                  "textDecorationLine": undefined,
+                }
+              }
+            >
+              Participants
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`<AppTabbar> should select 2nd button 1`] = `
+<View
+  dataSet={Object {}}
+  style={
+    Object {
+      "marginBottom": 16,
+      "marginLeft": 16,
+      "marginRight": 16,
+      "marginTop": 16,
+    }
+  }
+>
+  <View
+    _icon={
+      Object {
+        "color": "text.50",
+        "size": "sm",
+      }
+    }
+    _spinner={
+      Object {
+        "color": "text.50",
+        "focusable": false,
+        "size": "sm",
+      }
+    }
+    _stack={
+      Object {
+        "alignItems": "center",
+        "space": "1.5",
+      }
+    }
+    _text={
+      Object {
+        "color": "text.50",
+        "fontSize": "sm",
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    colorScheme="primary"
+    dataSet={Object {}}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onHoverIn={[Function]}
+    onHoverOut={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#d37b16",
+        "borderRadius": 4,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingBottom": 10,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <Text
+      dataSet={Object {}}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": "#171717",
+          "fontFamily": undefined,
+          "fontSize": 14,
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "letterSpacing": 0,
+          "lineHeight": 21,
+          "textDecorationLine": undefined,
+        }
+      }
+    >
+      Lectures
+    </Text>
+  </View>
+  <View
+    _icon={
+      Object {
+        "color": "text.50",
+        "size": "sm",
+      }
+    }
+    _spinner={
+      Object {
+        "color": "text.50",
+        "focusable": false,
+        "size": "sm",
+      }
+    }
+    _stack={
+      Object {
+        "alignItems": "center",
+        "space": "1.5",
+      }
+    }
+    _text={
+      Object {
+        "color": "text.50",
+        "fontSize": "sm",
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    colorScheme="primary"
+    dataSet={Object {}}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onHoverIn={[Function]}
+    onHoverOut={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#d37b16",
+        "borderRadius": 4,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingBottom": 10,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <Text
+      dataSet={Object {}}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": "#171717",
+          "fontFamily": undefined,
+          "fontSize": 14,
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "letterSpacing": 0,
+          "lineHeight": 21,
+          "textDecorationLine": undefined,
+        }
+      }
+    >
+      Participants
+    </Text>
+  </View>
+</View>
+`;

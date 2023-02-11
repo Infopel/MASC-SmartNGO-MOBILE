@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImageCapture> render 1`] = `
+<View
+  dataSet={Object {}}
+  style={Object {}}
+>
+  <View
+    dataSet={Object {}}
+    style={
+      Object {
+        "borderColor": "#f8a648",
+        "borderRadius": 6,
+        "borderWidth": 1,
+        "paddingBottom": 8,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 8,
+      }
+    }
+  >
+    <RCTScrollView
+      contentContainerStyle={
+        Array [
+          Object {},
+          Object {
+            "dataSet": Object {},
+          },
+          Object {},
+        ]
+      }
+      data={Array []}
+      dataSet={Object {}}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={true}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      style={
+        Object {
+          "flex": 1,
+          "marginBottom": 4,
+        }
+      }
+      viewabilityConfigCallbackPairs={Array []}
+    >
+      <View />
+    </RCTScrollView>
+    <View
+      dataSet={Object {}}
+      style={Object {}}
+    />
+    <View
+      dataSet={Object {}}
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessibilityRole="button"
+        accessible={true}
+        collapsable={false}
+        colorScheme="primary"
+        dataSet={Object {}}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#d37b16",
+            "borderBottomLeftRadius": 4,
+            "borderRadius": 0,
+            "borderTopLeftRadius": 4,
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingBottom": 10,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          dataSet={Object {}}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+          test={true}
+        >
+          <View
+            dataSet={Object {}}
+            style={Object {}}
+          >
+            <Text
+              dataSet={Object {}}
+              style={
+                Object {
+                  "backgroundColor": undefined,
+                  "color": "#fafafa",
+                  "fontFamily": undefined,
+                  "fontSize": 14,
+                  "fontStyle": "normal",
+                  "fontWeight": "400",
+                  "letterSpacing": 0,
+                  "lineHeight": 21,
+                  "textDecorationLine": undefined,
+                }
+              }
+            >
+              Add
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        dataSet={Object {}}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+      />
+      <View
+        accessibilityRole="button"
+        accessible={true}
+        collapsable={false}
+        colorScheme="primary"
+        dataSet={Object {}}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffcc91",
+            "borderBottomRightRadius": 4,
+            "borderLeftWidth": 0,
+            "borderRadius": 0,
+            "borderTopRightRadius": 4,
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingBottom": 10,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          dataSet={Object {}}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+          test={true}
+        >
+          <View
+            dataSet={Object {}}
+            style={Object {}}
+          >
+            <Text
+              dataSet={Object {}}
+              style={
+                Object {
+                  "backgroundColor": undefined,
+                  "color": "#85551e",
+                  "fontFamily": undefined,
+                  "fontSize": 14,
+                  "fontStyle": "normal",
+                  "fontWeight": "400",
+                  "letterSpacing": 0,
+                  "lineHeight": 21,
+                  "textDecorationLine": undefined,
+                }
+              }
+            >
+              Preview
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

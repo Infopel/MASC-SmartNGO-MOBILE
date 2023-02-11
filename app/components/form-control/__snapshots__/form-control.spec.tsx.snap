@@ -1,0 +1,314 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormControl> should render 1`] = `
+<View
+  dataSet={Object {}}
+  isInvalid={false}
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+  testID="tatabas"
+>
+  <View
+    dataSet={Object {}}
+    feedbackId="field-2-feedback"
+    hasFeedbackText={true}
+    hasHelpText={false}
+    helpTextId="field-2-helptext"
+    isDisabled={false}
+    isInvalid={false}
+    isReadOnly={false}
+    isRequired={false}
+    labelId="field-2-label"
+    nativeID="field-2-label"
+    setHasFeedbackText={[Function]}
+    setHasHelpText={[Function]}
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "marginBottom": 4,
+        "marginTop": 4,
+      }
+    }
+  >
+    <Text
+      dataSet={Object {}}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": "#737373",
+          "fontFamily": undefined,
+          "fontSize": 14,
+          "fontStyle": "normal",
+          "fontWeight": "500",
+          "letterSpacing": 0,
+          "lineHeight": 21,
+          "textDecorationLine": undefined,
+        }
+      }
+    >
+      Delete civic incubator item
+    </Text>
+  </View>
+  <Text
+    dataSet={Object {}}
+    style={
+      Object {
+        "backgroundColor": undefined,
+        "color": "#171717",
+        "fontFamily": undefined,
+        "fontSize": 14,
+        "fontStyle": "normal",
+        "fontWeight": "400",
+        "letterSpacing": 0,
+        "lineHeight": 21,
+        "textDecorationLine": undefined,
+      }
+    }
+  >
+        
+  </Text>
+  <View />
+</View>
+`;
+
+exports[`<FormControl> should show error 1`] = `
+<View
+  dataSet={Object {}}
+  isInvalid={true}
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+  testID="tatabas"
+>
+  <View
+    dataSet={Object {}}
+    feedbackId="field-8-feedback"
+    hasFeedbackText={true}
+    hasHelpText={false}
+    helpTextId="field-8-helptext"
+    isDisabled={false}
+    isInvalid={true}
+    isReadOnly={false}
+    isRequired={false}
+    labelId="field-8-label"
+    nativeID="field-8-label"
+    setHasFeedbackText={[Function]}
+    setHasHelpText={[Function]}
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "marginBottom": 4,
+        "marginTop": 4,
+      }
+    }
+  >
+    <Text
+      dataSet={Object {}}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": "#737373",
+          "fontFamily": undefined,
+          "fontSize": 14,
+          "fontStyle": "normal",
+          "fontWeight": "500",
+          "letterSpacing": 0,
+          "lineHeight": 21,
+          "textDecorationLine": undefined,
+        }
+      }
+    >
+      Delete civic incubator item
+    </Text>
+  </View>
+  <Text
+    dataSet={Object {}}
+    style={
+      Object {
+        "backgroundColor": undefined,
+        "color": "#171717",
+        "fontFamily": undefined,
+        "fontSize": 14,
+        "fontStyle": "normal",
+        "fontWeight": "400",
+        "letterSpacing": 0,
+        "lineHeight": 21,
+        "textDecorationLine": undefined,
+      }
+    }
+  >
+        
+  </Text>
+  <View />
+  <View
+    dataSet={Object {}}
+    feedbackId="field-8-feedback"
+    hasFeedbackText={true}
+    hasHelpText={false}
+    helpTextId="field-8-helptext"
+    isDisabled={false}
+    isInvalid={true}
+    isReadOnly={false}
+    isRequired={false}
+    labelId="field-8-label"
+    nativeID="field-8"
+    setHasFeedbackText={[Function]}
+    setHasHelpText={[Function]}
+    style={
+      Object {
+        "marginTop": 8,
+      }
+    }
+  >
+    <View
+      dataSet={Object {}}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        dataSet={Object {}}
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "color": "#dc2626",
+            "fontFamily": undefined,
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "letterSpacing": 0,
+            "lineHeight": 18,
+            "textDecorationLine": undefined,
+          }
+        }
+      >
+        this is a error message
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<FormControl> should show helperText 1`] = `
+<View
+  dataSet={Object {}}
+  isInvalid={false}
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+  testID="tatabas"
+>
+  <View
+    dataSet={Object {}}
+    feedbackId="field-5-feedback"
+    hasFeedbackText={true}
+    hasHelpText={true}
+    helpTextId="field-5-helptext"
+    isDisabled={false}
+    isInvalid={false}
+    isReadOnly={false}
+    isRequired={false}
+    labelId="field-5-label"
+    nativeID="field-5-label"
+    setHasFeedbackText={[Function]}
+    setHasHelpText={[Function]}
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "marginBottom": 4,
+        "marginTop": 4,
+      }
+    }
+  >
+    <Text
+      dataSet={Object {}}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": "#737373",
+          "fontFamily": undefined,
+          "fontSize": 14,
+          "fontStyle": "normal",
+          "fontWeight": "500",
+          "letterSpacing": 0,
+          "lineHeight": 21,
+          "textDecorationLine": undefined,
+        }
+      }
+    >
+      Delete civic incubator item
+    </Text>
+  </View>
+  <Text
+    dataSet={Object {}}
+    style={
+      Object {
+        "backgroundColor": undefined,
+        "color": "#171717",
+        "fontFamily": undefined,
+        "fontSize": 14,
+        "fontStyle": "normal",
+        "fontWeight": "400",
+        "letterSpacing": 0,
+        "lineHeight": 21,
+        "textDecorationLine": undefined,
+      }
+    }
+  >
+        
+  </Text>
+  <View />
+  <View
+    dataSet={Object {}}
+    feedbackId="field-5-feedback"
+    hasFeedbackText={true}
+    hasHelpText={true}
+    helpTextId="field-5-helptext"
+    isDisabled={false}
+    isInvalid={false}
+    isReadOnly={false}
+    isRequired={false}
+    labelId="field-5-label"
+    nativeID="field-5-feedback"
+    setHasFeedbackText={[Function]}
+    setHasHelpText={[Function]}
+    style={
+      Object {
+        "marginTop": 8,
+      }
+    }
+  >
+    <Text
+      dataSet={Object {}}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": "#737373",
+          "fontFamily": undefined,
+          "fontSize": 12,
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "letterSpacing": 0,
+          "lineHeight": 18,
+          "textDecorationLine": undefined,
+        }
+      }
+    >
+      Incubator Details
+    </Text>
+  </View>
+</View>
+`;

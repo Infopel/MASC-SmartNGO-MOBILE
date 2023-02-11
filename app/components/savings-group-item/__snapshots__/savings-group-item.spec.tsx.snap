@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SavingsGroupItem> render 1`] = `
+<View
+  dataSet={Object {}}
+  style={
+    Object {
+      "backgroundColor": "#fafaf9",
+      "borderBottomColor": "#fafafa",
+      "borderLeftColor": "#fafafa",
+      "borderRadius": 6,
+      "borderRightColor": "#fafafa",
+      "borderTopColor": "#fafafa",
+      "borderWidth": 1,
+      "elevation": 2,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.2,
+      "shadowRadius": 1.41,
+    }
+  }
+>
+  <View
+    _icon={
+      Object {
+        "color": "primary.600",
+        "size": "sm",
+      }
+    }
+    _spinner={
+      Object {
+        "color": "primary.600",
+        "focusable": false,
+        "size": "sm",
+      }
+    }
+    _stack={
+      Object {
+        "alignItems": "center",
+        "space": "1.5",
+      }
+    }
+    _text={
+      Object {
+        "color": "primary.600",
+        "fontSize": "sm",
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    colorScheme="primary"
+    dataSet={Object {}}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "borderRadius": 4,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingBottom": 10,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View
+      dataSet={Object {}}
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        dataSet={Object {}}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          dataSet={Object {}}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": "#171717",
+              "fontFamily": undefined,
+              "fontSize": 14,
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "letterSpacing": 0,
+              "lineHeight": 21,
+              "textDecorationLine": undefined,
+            }
+          }
+        >
+          Andre
+        </Text>
+        <View
+          dataSet={Object {}}
+          style={
+            Object {
+              "height": 8,
+            }
+          }
+        />
+        <Text
+          dataSet={Object {}}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": "#171717",
+              "fontFamily": undefined,
+              "fontSize": 14,
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "letterSpacing": 0,
+              "lineHeight": 21,
+              "textDecorationLine": undefined,
+            }
+          }
+        >
+          Matola
+        </Text>
+        <View
+          dataSet={Object {}}
+          style={
+            Object {
+              "height": 8,
+            }
+          }
+        />
+        <View
+          dataSet={Object {}}
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": undefined,
+                "color": "#171717",
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontStyle": "normal",
+                "fontWeight": "400",
+                "letterSpacing": 0,
+                "lineHeight": 21,
+                "textDecorationLine": undefined,
+              }
+            }
+          >
+            Cycle duration: 
+          </Text>
+          <View
+            dataSet={Object {}}
+            style={Object {}}
+          />
+          <Text
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": undefined,
+                "color": "#171717",
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontStyle": "normal",
+                "fontWeight": "400",
+                "letterSpacing": 0,
+                "lineHeight": 21,
+                "textDecorationLine": undefined,
+              }
+            }
+          >
+            20
+          </Text>
+        </View>
+        <View
+          dataSet={Object {}}
+          style={
+            Object {
+              "height": 8,
+            }
+          }
+        />
+        <View
+          dataSet={Object {}}
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": undefined,
+                "color": "#171717",
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontStyle": "normal",
+                "fontWeight": "400",
+                "letterSpacing": 0,
+                "lineHeight": 21,
+                "textDecorationLine": undefined,
+              }
+            }
+          >
+            1
+          </Text>
+          <View
+            dataSet={Object {}}
+            style={Object {}}
+          />
+          <Text
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": undefined,
+                "color": "#171717",
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontStyle": "normal",
+                "fontWeight": "400",
+                "letterSpacing": 0,
+                "lineHeight": 21,
+                "textDecorationLine": undefined,
+              }
+            }
+          >
+             Cycles
+          </Text>
+        </View>
+      </View>
+      <View
+        dataSet={Object {}}
+        style={Object {}}
+      />
+      <View
+        dataSet={Object {}}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#a1a1aa",
+            "borderColor": "#27272a",
+            "borderRadius": 9999,
+            "color": "#f97316",
+            "height": 48,
+            "justifyContent": "center",
+            "position": "relative",
+            "width": 48,
+          }
+        }
+      >
+        <Text
+          dataSet={Object {}}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": "#fafafa",
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontStyle": "normal",
+              "fontWeight": "600",
+              "letterSpacing": 0,
+              "lineHeight": 24,
+              "textDecorationLine": undefined,
+            }
+          }
+        >
+          1
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

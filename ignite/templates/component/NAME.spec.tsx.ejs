@@ -1,0 +1,13 @@
+import { fireEvent, render } from "utils/test-utils/test-utils"
+import * as React from "react"
+import { <%= props.pascalCaseName %> } from "./<%= props.kebabCaseName %>"
+
+
+
+describe("<<%= props.pascalCaseName %>>",()=>{
+  it("render", async function () {
+    const component = <<%= props.pascalCaseName %>></<%= props.pascalCaseName %>>
+  
+    expect(render(component).toJSON()).toMatchSnapshot()
+  })
+})

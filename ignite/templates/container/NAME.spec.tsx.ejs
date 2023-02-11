@@ -1,0 +1,12 @@
+import { fireEvent, render } from "utils/test-utils/test-utils"
+import * as React from "react"
+import { <%= props.pascalCaseName %>Container } from "./<%= props.kebabCaseName %>"
+
+describe("<<%= props.pascalCaseName %>Container>",()=>{
+ it("render", async function () {
+    const {toJSON} = render(<<%= props.pascalCaseName %>Container></<%= props.pascalCaseName %>Container>)
+    
+    expect(toJSON()).toMatchSnapshot()
+  })
+})
+  

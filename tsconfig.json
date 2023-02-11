@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "module": "ES2020",
+    "jsx": "react-native",
+    "moduleResolution": "node",
+    "types": ["jest", "node", "@testing-library/jest-native"],
+    "noEmit": false,
+    "outDir": "./dist",
+    "experimentalDecorators": true,
+    "baseUrl": "./app",
+    "strict": true,
+    "target": "ES2020",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "noImplicitThis": false,
+    "paths": {
+      "navigators/*": ["navigators/*"],
+      "components/*": ["components/*"],
+      "screens/*": ["screens/*"],
+      "api/*": ["services/api/*"],
+      "containers/*": ["containers/*"],
+      "storage/*": ["services/storage/*"],
+      "models/*": ["models/*"],
+      "utils/*": ["utils/*"],
+      "assets/*": ["assets/*"],
+      "theme/*": ["theme/*"],
+      "i18n/*": ["i18n/*"],
+      "store/*": ["store/*"],
+      "test-utils/*": ["utils/test-utils/*"]
+    }
+  },"exclude": [".history"]
+}

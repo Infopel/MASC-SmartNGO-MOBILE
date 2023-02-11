@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SavingsGroupMonitoringListContainer> render 1`] = `
+<View
+  dataSet={Object {}}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Array [
+        Object {},
+        Object {
+          "dataSet": Object {},
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "age": 22,
+          "id": "ewqdf",
+          "name": "Paulo Artur",
+          "savings": 50000,
+        },
+      ]
+    }
+    dataSet={Object {}}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={Object {}}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          dataSet={Object {}}
+          style={
+            Object {
+              "backgroundColor": "#fafaf9",
+              "borderBottomColor": "#fafafa",
+              "borderLeftColor": "#ef8812",
+              "borderLeftWidth": 6,
+              "borderRadius": 6,
+              "borderRightColor": "#fafafa",
+              "borderTopColor": "#fafafa",
+              "borderWidth": 1,
+              "elevation": 2,
+              "paddingBottom": 8,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 8,
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": 1,
+                "width": 0,
+              },
+              "shadowOpacity": 0.2,
+              "shadowRadius": 1.41,
+            }
+          }
+        >
+          <View
+            dataSet={Object {}}
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              dataSet={Object {}}
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                dataSet={Object {}}
+                style={
+                  Object {
+                    "backgroundColor": undefined,
+                    "color": "#171717",
+                    "fontFamily": undefined,
+                    "fontSize": 14,
+                    "fontStyle": "normal",
+                    "fontWeight": "700",
+                    "letterSpacing": 0,
+                    "lineHeight": 21,
+                    "textDecorationLine": undefined,
+                  }
+                }
+              >
+                Paulo Artur
+              </Text>
+              <View
+                dataSet={Object {}}
+                style={
+                  Object {
+                    "height": 8,
+                  }
+                }
+              />
+              <Text
+                dataSet={Object {}}
+                style={
+                  Object {
+                    "backgroundColor": undefined,
+                    "color": "#171717",
+                    "fontFamily": undefined,
+                    "fontSize": 14,
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "letterSpacing": 0,
+                    "lineHeight": 21,
+                    "textDecorationLine": undefined,
+                  }
+                }
+              >
+                22
+                 anos
+              </Text>
+              <View
+                dataSet={Object {}}
+                style={
+                  Object {
+                    "height": 8,
+                  }
+                }
+              />
+              <Text
+                dataSet={Object {}}
+                style={
+                  Object {
+                    "backgroundColor": undefined,
+                    "color": "#171717",
+                    "fontFamily": undefined,
+                    "fontSize": 14,
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "letterSpacing": 0,
+                    "lineHeight": 21,
+                    "textDecorationLine": undefined,
+                  }
+                }
+              >
+                Poupança: 
+                50000
+              </Text>
+            </View>
+            <View
+              dataSet={Object {}}
+              style={
+                Object {
+                  "width": 8,
+                }
+              }
+            />
+            <View
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              colorScheme="danger"
+              dataSet={Object {}}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 4,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 10,
+                  "paddingLeft": 10,
+                  "paddingRight": 10,
+                  "paddingTop": 10,
+                }
+              }
+            >
+              <Text />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    dataSet={Object {}}
+    style={Object {}}
+  />
+  <View
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    colorScheme="primary"
+    dataSet={Object {}}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#d37b16",
+        "borderRadius": 9999,
+        "bottom": 16,
+        "elevation": 8,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+        "position": "absolute",
+        "right": 16,
+        "shadowColor": "#000000",
+        "shadowOffset": Object {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.3,
+        "shadowRadius": 4.65,
+        "zIndex": 20,
+      }
+    }
+  >
+    <View
+      dataSet={Object {}}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+      test={true}
+    >
+      <View
+        dataSet={Object {}}
+        style={Object {}}
+      >
+        <Text
+          dataSet={Object {}}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": "#fafafa",
+              "fontFamily": undefined,
+              "fontSize": 14,
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "letterSpacing": 0,
+              "lineHeight": 21,
+              "textDecorationLine": undefined,
+            }
+          }
+        >
+          Add Monitoring
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

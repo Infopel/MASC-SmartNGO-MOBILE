@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionPlanListItemContainer> render 1`] = `
+<View
+  style={
+    Object {
+      "padding": 16,
+    }
+  }
+  testID="actionPlanListItemContainer"
+>
+  <Text
+    dataSet={Object {}}
+    style={
+      Array [
+        Object {
+          "backgroundColor": undefined,
+          "color": "#171717",
+          "fontFamily": undefined,
+          "fontSize": 14,
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "letterSpacing": 0,
+          "lineHeight": 21,
+          "textDecorationLine": undefined,
+        },
+        Object {
+          "color": "#FBA928",
+          "fontFamily": "Helvetica",
+          "fontSize": 14,
+        },
+      ]
+    }
+    testID="actionPlanListItemContainerTestId"
+  >
+    Hello
+  </Text>
+</View>
+`;

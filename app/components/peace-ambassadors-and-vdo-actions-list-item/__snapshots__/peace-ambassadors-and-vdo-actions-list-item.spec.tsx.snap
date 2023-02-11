@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PeaceAmbassadorsAndVdoActionsListItem> render 1`] = `
+<View
+  dataSet={Object {}}
+  style={
+    Object {
+      "backgroundColor": "#fafaf9",
+      "borderBottomColor": "#fafafa",
+      "borderLeftColor": "#ef8812",
+      "borderLeftWidth": 6,
+      "borderRadius": 6,
+      "borderRightColor": "#fafafa",
+      "borderTopColor": "#fafafa",
+      "borderWidth": 1,
+      "elevation": 2,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.2,
+      "shadowRadius": 1.41,
+    }
+  }
+>
+  <View
+    _icon={
+      Object {
+        "color": "primary.600",
+        "size": "sm",
+      }
+    }
+    _spinner={
+      Object {
+        "color": "primary.600",
+        "focusable": false,
+        "size": "sm",
+      }
+    }
+    _stack={
+      Object {
+        "alignItems": "center",
+        "space": "1.5",
+      }
+    }
+    _text={
+      Object {
+        "color": "primary.600",
+        "fontSize": "sm",
+      }
+    }
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    colorScheme="primary"
+    dataSet={Object {}}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onHoverIn={[Function]}
+    onHoverOut={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "borderRadius": 4,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingBottom": 10,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View
+      dataSet={Object {}}
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        dataSet={Object {}}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          dataSet={Object {}}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": "#171717",
+              "fontFamily": undefined,
+              "fontSize": 14,
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "letterSpacing": 0,
+              "lineHeight": 21,
+              "textDecorationLine": undefined,
+            }
+          }
+        >
+          asdfaskdn
+        </Text>
+        <View
+          dataSet={Object {}}
+          style={
+            Object {
+              "height": 8,
+            }
+          }
+        />
+        <Text
+          dataSet={Object {}}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": "#171717",
+              "fontFamily": undefined,
+              "fontSize": 14,
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "letterSpacing": 0,
+              "lineHeight": 21,
+              "textDecorationLine": undefined,
+            }
+          }
+        >
+          Coordenado por: 
+          Mateus
+        </Text>
+        <View
+          dataSet={Object {}}
+          style={
+            Object {
+              "height": 8,
+            }
+          }
+        />
+        <Text
+          dataSet={Object {}}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": "#171717",
+              "fontFamily": undefined,
+              "fontSize": 14,
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "letterSpacing": 0,
+              "lineHeight": 21,
+              "textDecorationLine": undefined,
+            }
+          }
+        >
+          8
+           Membros
+        </Text>
+        <View
+          dataSet={Object {}}
+          style={
+            Object {
+              "height": 8,
+            }
+          }
+        />
+        <Text
+          dataSet={Object {}}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": "#171717",
+              "fontFamily": undefined,
+              "fontSize": 14,
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "letterSpacing": 0,
+              "lineHeight": 21,
+              "textDecorationLine": undefined,
+            }
+          }
+        >
+          15/01/1970
+        </Text>
+      </View>
+      <View
+        dataSet={Object {}}
+        style={Object {}}
+      />
+      <View
+        accessibilityRole="imagebutton"
+        accessible={true}
+        collapsable={false}
+        colorScheme="primary"
+        dataSet={Object {}}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onHoverIn={[Function]}
+        onHoverOut={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderRadius": 4,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingBottom": 10,
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text />
+      </View>
+    </View>
+  </View>
+</View>
+`;

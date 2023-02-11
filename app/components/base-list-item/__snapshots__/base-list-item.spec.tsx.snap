@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BaseListItem> render 1`] = `
+<View
+  dataSet={Object {}}
+  style={
+    Object {
+      "backgroundColor": "#fafaf9",
+      "borderBottomColor": "#fafafa",
+      "borderLeftColor": "#ef8812",
+      "borderLeftWidth": 6,
+      "borderRadius": 6,
+      "borderRightColor": "#fafafa",
+      "borderTopColor": "#fafafa",
+      "borderWidth": 1,
+      "elevation": 2,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.2,
+      "shadowRadius": 1.41,
+    }
+  }
+>
+  <View
+    dataSet={Object {}}
+    style={Object {}}
+  />
+</View>
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionPlanListItem> render 1`] = `
+<View
+  dataSet={Object {}}
+  style={
+    Object {
+      "marginBottom": 16,
+      "marginLeft": 16,
+      "marginRight": 16,
+      "marginTop": 16,
+    }
+  }
+>
+  <Text
+    dataSet={Object {}}
+    style={
+      Object {
+        "backgroundColor": undefined,
+        "color": "#fb923c",
+        "fontFamily": undefined,
+        "fontSize": 14,
+        "fontStyle": "normal",
+        "fontWeight": "400",
+        "letterSpacing": 0,
+        "lineHeight": 21,
+        "textDecorationLine": undefined,
+      }
+    }
+  >
+    Hello
+  </Text>
+</View>
+`;

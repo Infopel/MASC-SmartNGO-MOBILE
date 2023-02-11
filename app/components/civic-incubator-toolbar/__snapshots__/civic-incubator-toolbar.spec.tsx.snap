@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CivicIncubatorToolbar> render 1`] = `
+<View
+  dataSet={Object {}}
+  style={
+    Object {
+      "alignItems": "flex-start",
+      "backgroundColor": "#fafaf9",
+      "borderColor": "#fafafa",
+      "borderWidth": 1,
+      "elevation": 2,
+      "flexDirection": "row",
+      "paddingBottom": 12,
+      "paddingLeft": 4,
+      "paddingRight": 4,
+      "paddingTop": 12,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.2,
+      "shadowRadius": 1.41,
+    }
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    colorScheme="text"
+    dataSet={Object {}}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onHoverIn={[Function]}
+    onHoverOut={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "borderRadius": 4,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      }
+    }
+    testID="back"
+  >
+    <Text />
+  </View>
+  <View
+    dataSet={Object {}}
+    style={Object {}}
+  />
+  <View
+    dataSet={Object {}}
+    style={Object {}}
+  >
+    <Text
+      dataSet={Object {}}
+      numberOfLines={1}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": "#171717",
+          "fontFamily": undefined,
+          "fontSize": 20,
+          "fontStyle": "normal",
+          "fontWeight": "500",
+          "letterSpacing": 0,
+          "lineHeight": 25,
+          "textAlign": "center",
+          "textDecorationLine": undefined,
+        }
+      }
+    >
+      Super Incubadora
+    </Text>
+    <View
+      dataSet={Object {}}
+      style={
+        Object {
+          "height": 8,
+        }
+      }
+    />
+    <View
+      dataSet={Object {}}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text />
+      <View
+        dataSet={Object {}}
+        style={
+          Object {
+            "width": 4,
+          }
+        }
+      />
+      <Text
+        dataSet={Object {}}
+        numberOfLines={1}
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "color": "#171717",
+            "fontFamily": undefined,
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "fontWeight": "300",
+            "letterSpacing": 0,
+            "lineHeight": 17.5,
+            "textDecorationLine": undefined,
+          }
+        }
+      >
+        Maputo Cidade, KaMavota
+      </Text>
+    </View>
+  </View>
+</View>
+`;

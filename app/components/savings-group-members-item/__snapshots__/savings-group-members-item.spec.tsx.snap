@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SavingsGroupMembersItem> render 1`] = `
+<View
+  dataSet={Object {}}
+  style={
+    Object {
+      "backgroundColor": "#fafaf9",
+      "borderBottomColor": "#fafafa",
+      "borderLeftColor": "#ef8812",
+      "borderLeftWidth": 6,
+      "borderRadius": 6,
+      "borderRightColor": "#fafafa",
+      "borderTopColor": "#fafafa",
+      "borderWidth": 1,
+      "elevation": 2,
+      "paddingBottom": 8,
+      "paddingLeft": 8,
+      "paddingRight": 8,
+      "paddingTop": 8,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.2,
+      "shadowRadius": 1.41,
+    }
+  }
+>
+  <View
+    dataSet={Object {}}
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      dataSet={Object {}}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        dataSet={Object {}}
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "color": "#171717",
+            "fontFamily": undefined,
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "fontWeight": "700",
+            "letterSpacing": 0,
+            "lineHeight": 21,
+            "textDecorationLine": undefined,
+          }
+        }
+      >
+        Angoche
+      </Text>
+      <View
+        dataSet={Object {}}
+        style={
+          Object {
+            "height": 8,
+          }
+        }
+      />
+      <Text
+        dataSet={Object {}}
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "color": "#171717",
+            "fontFamily": undefined,
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "letterSpacing": 0,
+            "lineHeight": 21,
+            "textDecorationLine": undefined,
+          }
+        }
+      >
+        78
+         anos
+      </Text>
+      <View
+        dataSet={Object {}}
+        style={
+          Object {
+            "height": 8,
+          }
+        }
+      />
+      <Text
+        dataSet={Object {}}
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "color": "#171717",
+            "fontFamily": undefined,
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "letterSpacing": 0,
+            "lineHeight": 21,
+            "textDecorationLine": undefined,
+          }
+        }
+      >
+        16/01/1970
+      </Text>
+    </View>
+    <View
+      dataSet={Object {}}
+      style={
+        Object {
+          "width": 8,
+        }
+      }
+    />
+    <View
+      dataSet={Object {}}
+      style={Object {}}
+    >
+      <Text
+        dataSet={Object {}}
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "color": "#171717",
+            "fontFamily": undefined,
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "fontWeight": "700",
+            "letterSpacing": 0,
+            "lineHeight": 21,
+            "textDecorationLine": undefined,
+          }
+        }
+      >
+        Poupança: 
+        15844854
+      </Text>
+      <View
+        dataSet={Object {}}
+        style={
+          Object {
+            "height": 8,
+          }
+        }
+      />
+      <Text
+        dataSet={Object {}}
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "color": "#171717",
+            "fontFamily": undefined,
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "letterSpacing": 0,
+            "lineHeight": 21,
+            "textDecorationLine": undefined,
+          }
+        }
+      >
+        Empréstimo: 
+        231
+         
+      </Text>
+    </View>
+  </View>
+</View>
+`;

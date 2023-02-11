@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionPlanListContainer> render 1`] = `
+<RCTScrollView
+  ItemSeparatorComponent={[Function]}
+  ListEmptyComponent={<Placeholder />}
+  contentContainerStyle={
+    Array [
+      Object {},
+      Object {
+        "dataSet": Object {},
+      },
+      Object {},
+    ]
+  }
+  dataSet={Object {}}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  style={Object {}}
+  viewabilityConfigCallbackPairs={Array []}
+>
+  <View>
+    <View
+      style={
+        Object {
+          "padding": 16,
+        }
+      }
+    >
+      <Text
+        dataSet={Object {}}
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "color": "#171717",
+            "fontFamily": undefined,
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "letterSpacing": 0,
+            "lineHeight": 21,
+            "textDecorationLine": undefined,
+          }
+        }
+      >
+        Empty List
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;
